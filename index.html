@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Frequently Asked Questions - 7th Pixel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-
+/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <link rel="stylesheet" href="faq.css">
+   
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.collapsible').collapsible();
+        });
+
+    </script>
+    <style>
+        .brand-logo {
+            margin-left: 10px;
+        }
+
+        .parallax img {
+            width: 100%;
+            height: 20vh
+        }
+
+        img.activator {
+            height: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+   <div class="wrapper">
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-wrapper indigo darken-1">
+            <a href="index.html" class="brand-logo center"><img class="responsive-img" id="logo" src="images/7thpixellogo.png"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="">Home</a></li>
+                <li><a href="">Info</a></li>
+                <li class="active"><a href="faq.html">FAQ</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="">Home</a></li>
+        <li><a href="">Info</a></li>
+        <li><a href="">FAQ</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
+    
+    <!-- FAQ section -->
+   <div class="container">
+        <div class="row">
+            <h2 class="section-header center">Frequently Asked Questions</h2>
+        </div>
+        <div class="row">
+    <ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">question_answer</i>How did you determine the top 3 video games of each year from 2022-2024?</div>
+      <div class="collapsible-body"><span>The top 3 video games of each year are determined by a combination of critical acclaim, player reviews, and popularity. Our team reviews the top choices and meets to decide our final top 3.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">question_answer</i>Can I suggest a game that I think should be on the list?</div>
+      <div class="collapsible-body"><span>Yes, please visit our <a id="redirect" href="contact.html">Contact Us page</a> and share your suggestions for games you think should be on our yearly list.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">question_answer</i>Where can I play the games listed on the website?</div>
+      <div class="collapsible-body"><span>Under each game's description, you’ll find the platforms where each game is available.</span></div>
+    </li>
+     <li>
+      <div class="collapsible-header"><i class="material-icons">question_answer</i>Are these games available worldwide?</div>
+      <div class="collapsible-body"><span>Most games listed on our website are available worldwide. However due to regional restrictions, some games may not be available in certain countries. Check the games storefront for more details on availability.</span></div>
+    </li>
+     <li>
+      <div class="collapsible-header"><i class="material-icons">question_answer</i>Will you update this list in the future?</div>
+      <div class="collapsible-body"><span>Yes, our plan is to update this page yearly with our top games. Keep an eye out for updates in 2025!</span></div>
+    </li>
+  </ul>
+   </div>
+    </div>
+<!-- Critic Section -->
+    
+     <div class="container">
+        <div class="row">
+            <h2 class="section-header center">Critic Websites</h2>
+        </div>
+        <div class="row">
+           <!-- first card -->
+          
+    <div class="col l4 m4 s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/metacriticlogo.png">
+          
+        </div>
+        <div class="card-content">
+         <span class="card-title black-text">Metacritic</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+        <a href="https://www.metacritic.com/">Their Website</a>
+        </div>
+      </div>
+    </div>
+ 
+            <!--second card -->
+
+    <div class="col l4 m4 s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/ignlogo.png">
+         
+        </div>
+        <div class="card-content">
+          <span class="card-title black-text">IGN</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://www.ign.com/">Their Website</a>
+        </div>
+      </div>
+    </div>
+         
+  
+            <!-- third card -->
+
+    <div class="col l4 m4 s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/opencriticlogo.png">
+        </div>
+        <div class="card-content">
+         <span class="card-title black-text">Opencritic</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://opencritic.com/">Their Website</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    <!-- Installing Section -->
+     <div class="container">
+    <div class="row">
+            <h2 class="section-header center">How to Install PC Games</h2>
+        </div>
+        <div class="row">
+   <div class= "col s6 m6">
+       <div class="video-container">
+           <iframe src="https://www.youtube.com/embed/FdOq3jder68?si=S1-WoVPvHpHc20ng" frameborder="0" allowfullscreen></iframe>
+       </div>
+   </div>
+   <div class= "col s6 m6">
+       <div class="video-container">
+           <iframe src="https://www.youtube.com/embed/ulyicVW6NkQ?si=VHeQbyYtywqVWVEH" frameborder="0" allowfullscreen></iframe>
+       </div>
+   </div>
+    </div>
+     </div>
+    <!-- Footer -->
+    <footer class="page-footer indigo darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; 2024 Copyright, 7th Pixel
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    </div>
+       
+</body>
+
+</html>
